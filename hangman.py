@@ -134,7 +134,7 @@ def display_hangman(tries):
 def main():
     word = get_word()
     play(word)
-    while input("Play Again? (y/n) ").upper == "Y"
+    while input("Play Again? (y/n) ").upper == "Y":
     word = get_word()
     play(word)
 
