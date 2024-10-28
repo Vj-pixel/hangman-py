@@ -134,9 +134,14 @@ def display_hangman(tries):
 def main():
     word = get_word()
     play(word)
-    while input("Play Again? (y/n) ").upper == "Y":
+
+    play_again = input("Play again (y/n)?").upper
+    if play_again == "Y":
         word = get_word()
         play(word)
+    else:
+        print("Bye bye!")
+        exit()
 
 if __name__ == "__main__":
     main()
