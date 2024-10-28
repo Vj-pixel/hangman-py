@@ -20,10 +20,23 @@ def play(word):
     while not guessed and tries > 0:
         guess = input("Please guess a letter or word: ").upper() #converts it to uppercase cuz that's how hangman works!
         # if-else block
-        if len(guess) == 1 and guess.isalpha():
+        if len(guess) == 1 and guess.isalpha(): # checks if the guess is a letter and one character
+            if guess in guessed_letters: #checks to see if the letter was already guessed
+                print("You already guessed the letter", guess)
+            elif guess not in word:
+                print(guess, "is not in the word.")
+                tries -= 1 # subtract total tries by 1
+                guessed_letters.append(guess) # adds it to the guessed_letters array 👆
+            else:
+                print("Good job,", guess, "is in the word!")
+                guessed_letters.append(guess)
+                word_as_list = list(word_completion)
 
-
-        elif len(guess) == len(word) and guess.isalpha():
+        elif len(guess) == len(word) and guess.isalpha(): # checks if the guess is a word and it is a alphabetic letter
 
         else:
             print("Not a valid guess")
+
+        print(display_hangman(tries))
+        print(word_completion)
+        print("\n")
