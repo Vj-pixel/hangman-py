@@ -1,35 +1,69 @@
 words = [
-    "time", "person", "year", "way", "day", "thing", "man", "world", "life", "hand",
-    "part", "child", "eye", "woman", "place", "work", "week", "case", "point", "company",
-    "number", "group", "problem", "fact", "idea", "water", "money", "month", "book", "lot",
-    "example", "family", "business", "issue", "side", "kind", "head", "house", "service", "friend",
-    "father", "power", "hour", "game", "line", "end", "member", "law", "car", "city",
-    "be", "have", "do", "say", "get", "make", "go", "know", "take", "see",
-    "come", "think", "look", "want", "give", "use", "find", "tell", "ask", "work",
-    "seem", "feel", "try", "leave", "call", "need", "become", "put", "mean", "keep",
-    "let", "begin", "seem", "help", "talk", "turn", "start", "show", "hear", "play",
-    "run", "move", "like", "live", "believe", "hold", "bring", "happen", "write", "sit",
-    "good", "new", "first", "last", "long", "great", "little", "own", "other", "old",
-    "right", "big", "high", "different", "small", "large", "next", "early", "young", "important",
-    "few", "public", "bad", "same", "able", "best", "better", "true", "sure", "free",
-    "late", "hard", "major", "real", "close", "easy", "full", "fair", "low", "simple",
-    "up", "out", "now", "how", "then", "back", "there", "down", "only", "well",
-    "also", "very", "just", "where", "here", "why", "away", "again", "never", "however",
-    "too", "once", "always", "together", "likely", "still", "ever", "quite", "already", "often",
-    "computer", "internet", "software", "data", "system", "program", "network", "device", "web", "digital",
-    "code", "app", "file", "server", "cloud", "user", "email", "password", "website", "online",
-    "tree", "flower", "sun", "moon", "star", "rain", "snow", "wind", "sky", "sea",
-    "ocean", "river", "mountain", "forest", "plant", "animal", "bird", "fish", "dog", "cat",
-    "food", "water", "coffee", "tea", "bread", "cheese", "meat", "fruit", "vegetable", "dinner",
-    "lunch", "breakfast", "meal", "drink", "juice", "milk", "cake", "sugar", "salt", "dish",
-    "red", "blue", "green", "yellow", "black", "white", "purple", "orange", "pink", "brown",
-    "gray", "silver", "gold", "dark", "light",
-    "today", "tomorrow", "yesterday", "morning", "evening", "night", "minute", "second", "moment", "soon",
-    "later", "early", "late", "now", "then", "before", "after", "while", "during",
-    "happy", "sad", "angry", "scared", "excited", "tired", "confused", "proud", "worried", "surprised",
-    "hello", "goodbye", "please", "thank", "sorry", "excuse", "welcome", "okay", "yes", "no",
-    "big", "small", "large", "tiny", "huge", "long", "short", "heavy", "light", "deep",
-    "shallow", "wide", "narrow", "thick", "thin",
-    "up", "down", "left", "right", "north", "south", "east", "west", "forward", "backward",
-    "inside", "outside", "around", "through", "across"
+    # Science and Technology
+    "ALGORITHM",
+    "BANDWIDTH",
+    "CRYPTOCURRENCY",
+    "DATABASE",
+    "ENCRYPTION",
+
+    # Animals and Nature
+    "RHINOCEROS",
+    "PHOSPHORESCENT",
+    "PHOTOSYNTHESIS",
+    "METAMORPHOSIS",
+    "ECOSYSTEM",
+
+    # Medicine and Biology
+    "CHROMOSOME",
+    "VACCINATION",
+    "PHYSIOLOGY",
+    "METABOLISM",
+    "ANTIBIOTICS",
+
+    # Geography and Places
+    "ANTARCTICA",
+    "MEDITERRANEAN",
+    "ARCHIPELAGO",
+    "Peninsula",
+    "CIVILIZATION",
+
+    # Literature and Language
+    "METAPHOR",
+    "PALINDROME",
+    "THESAURUS",
+    "VOCABULARY",
+    "PUNCTUATION",
+
+    # Music and Arts
+    "SYMPHONY",
+    "PERCUSSION",
+    "CHOREOGRAPHY",
+    "ORCHESTRA",
+    "RENAISSANCE",
+
+    # Food and Cooking
+    "CHOCOLATE",
+    "PARMESAN",
+    "GUACAMOLE",
+    "MAYONNAISE",
+    "ZUCCHINI",
+
+    # Sports and Games
+    "QUARTERBACK",
+    "BASKETBALL",
+    "GYMNASTICS",
+    "VOLLEYBALL",
+    "WRESTLING",
+
+    # Miscellaneous Challenging Words
+    "PERIPHERAL",
+    "PNEUMONIA",
+    "SYNDROME",
+    "PSYCHOLOGY",
+    "XYLOPHONE",
+    "RHYTHM",
+    "MYSTIQUE",
+    "JACKPOT",
+    "ZODIAC",
+    "ZENITH"
 ]
